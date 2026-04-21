@@ -1,0 +1,4 @@
+calc.exe
+.gemini/
+*.o
+node_modules/
