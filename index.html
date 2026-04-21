@@ -152,19 +152,30 @@
             align-items: center;
             justify-content: center;
         }
+
         #calcModal.active {
             display: flex;
             animation: fadeIn 0.3s ease-out;
         }
+
         @keyframes fadeIn {
-            from { opacity: 0; transform: scale(0.95); }
-            to { opacity: 1; transform: scale(1); }
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
         }
+
         .term-output {
             font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
             white-space: pre-wrap;
             color: #aaffdc;
         }
+
         .term-input {
             background: transparent;
             border: none;
@@ -181,20 +192,24 @@
             border-bottom: 1px solid rgba(105, 218, 255, 0.1);
             padding-bottom: 0.5rem;
         }
+
         .resume-item {
             @apply mb-6;
         }
+
         .resume-bullet {
             @apply pl-4 relative mb-2 text-on-surface-variant text-sm;
         }
+
         .resume-bullet::before {
             content: "•";
             @apply absolute left-0 text-primary;
         }
+
         .skill-tag {
             @apply px-3 py-1 bg-surface-container-highest rounded-full text-xs text-on-surface border border-outline-variant/20;
         }
-        
+
         #resumeModal {
             display: none;
             position: fixed;
@@ -205,6 +220,7 @@
             align-items: center;
             justify-content: center;
         }
+
         #resumeModal.active {
             display: flex;
             animation: fadeIn 0.3s ease-out;
@@ -246,7 +262,8 @@
                 <div
                     class="glass-card p-6 md:p-8 rounded-xl max-w-2xl transition-all hover:shadow-[0_0_30px_rgba(105,218,255,0.1)]">
                     <p class="text-lg text-on-surface leading-relaxed">
-                        A motivated student from Manav Rachna University passionate about coding and AI tools. Turning logic into functional art, one line of code at a time.
+                        A motivated student from Manav Rachna University passionate about coding and AI tools. Turning
+                        logic into functional art, one line of code at a time.
                     </p>
                 </div>
                 <div class="mt-12 flex gap-4">
@@ -261,8 +278,7 @@
                 <div
                     class="w-full h-full glass-card rounded-full flex items-center justify-center relative overflow-hidden">
                     <img alt="Satyam Thakur" class="w-full h-full object-cover"
-                        data-alt="Personal portrait of Satyam Thakur"
-                        src="assets/user_profile.jpg" />
+                        data-alt="Personal portrait of Satyam Thakur" src="assets/user_profile.jpg" />
                     <div class="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20"></div>
                 </div>
             </div>
@@ -366,7 +382,8 @@
                         <div class="h-full bg-tertiary w-[80%] rounded-full shadow-[0_0_10px_rgba(170,255,220,0.5)]">
                         </div>
                     </div>
-                    <p class="mt-4 text-sm text-on-surface-variant">Complexity Analysis, Sorting, Searching, and Optimized Data Management.</p>
+                    <p class="mt-4 text-sm text-on-surface-variant">Complexity Analysis, Sorting, Searching, and
+                        Optimized Data Management.</p>
                 </div>
                 <!-- Skill Card 5 -->
                 <div
@@ -379,33 +396,38 @@
                         <div class="h-full bg-primary w-[90%] rounded-full shadow-[0_0_10px_rgba(105,218,255,0.5)]">
                         </div>
                     </div>
-                    <p class="mt-4 text-sm text-on-surface-variant">Version Control, Collaboration, and Open Source Contributions.</p>
+                    <p class="mt-4 text-sm text-on-surface-variant">Version Control, Collaboration, and Open Source
+                        Contributions.</p>
                 </div>
                 <!-- Skill Card 6 -->
                 <div
                     class="bg-surface-container-high p-8 rounded-2xl border border-outline-variant/10 hover:border-secondary/40 transition-all group">
                     <div class="flex items-center gap-4 mb-6">
-                        <span class="material-symbols-outlined text-4xl text-secondary" data-icon="auto_fix_high">auto_fix_high</span>
+                        <span class="material-symbols-outlined text-4xl text-secondary"
+                            data-icon="auto_fix_high">auto_fix_high</span>
                         <h4 class="text-xl font-bold">Stitch</h4>
                     </div>
                     <div class="h-2 w-full bg-surface-container-lowest rounded-full overflow-hidden">
                         <div class="h-full bg-secondary w-[95%] rounded-full shadow-[0_0_10px_rgba(237,177,255,0.5)]">
                         </div>
                     </div>
-                    <p class="mt-4 text-sm text-on-surface-variant">Generative UI/UX Design and rapid prototyping with AI.</p>
+                    <p class="mt-4 text-sm text-on-surface-variant">Generative UI/UX Design and rapid prototyping with
+                        AI.</p>
                 </div>
                 <!-- Skill Card 7 -->
                 <div
                     class="bg-surface-container-high p-8 rounded-2xl border border-outline-variant/10 hover:border-tertiary/40 transition-all group">
                     <div class="flex items-center gap-4 mb-6">
-                        <span class="material-symbols-outlined text-4xl text-tertiary" data-icon="auto_awesome">auto_awesome</span>
+                        <span class="material-symbols-outlined text-4xl text-tertiary"
+                            data-icon="auto_awesome">auto_awesome</span>
                         <h4 class="text-xl font-bold">Antigravity</h4>
                     </div>
                     <div class="h-2 w-full bg-surface-container-lowest rounded-full overflow-hidden">
                         <div class="h-full bg-tertiary w-[85%] rounded-full shadow-[0_0_10px_rgba(170,255,220,0.5)]">
                         </div>
                     </div>
-                    <p class="mt-4 text-sm text-on-surface-variant">High-performance AI coding assistance and task automation.</p>
+                    <p class="mt-4 text-sm text-on-surface-variant">High-performance AI coding assistance and task
+                        automation.</p>
                 </div>
             </div>
         </section>
@@ -542,7 +564,11 @@
                                     href="https://www.linkedin.com/in/satyam-thakur-615449374" target="_blank">
                                     <div
                                         class="w-12 h-12 rounded-xl bg-surface-container-highest flex items-center justify-center group-hover:bg-primary/10">
-                                        <svg class="w-6 h-6 fill-primary" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9H12.76v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.98 0 1.771-.773 1.771-1.729V1.729C24 .774 23.205 0 22.225 0z"/></svg>
+                                        <svg class="w-6 h-6 fill-primary" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9H12.76v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.98 0 1.771-.773 1.771-1.729V1.729C24 .774 23.205 0 22.225 0z" />
+                                        </svg>
                                     </div>
                                     <span>linkedin.com/in/satyam-thakur</span>
                                 </a>
@@ -592,7 +618,8 @@
                 Python &amp; Nebula Logic.</p>
             <div class="flex gap-8 font-['Inter'] text-xs tracking-wide md:order-3">
                 <a class="text-[#a5abba] hover:text-[#edb1ff] transition-all" href="#">GitHub</a>
-                <a class="text-[#a5abba] hover:text-[#edb1ff] transition-all" href="https://www.linkedin.com/in/satyam-thakur-615449374" target="_blank">LinkedIn</a>
+                <a class="text-[#a5abba] hover:text-[#edb1ff] transition-all"
+                    href="https://www.linkedin.com/in/satyam-thakur-615449374" target="_blank">LinkedIn</a>
                 <a class="text-[#a5abba] hover:text-[#edb1ff] transition-all" href="#">Twitter</a>
                 <a class="text-[#a5abba] hover:text-[#edb1ff] transition-all" href="#">Email</a>
             </div>
@@ -601,11 +628,13 @@
 
     <!-- Calculator Modal -->
     <div id="calcModal">
-        <div class="glass-card w-11/12 max-w-5xl rounded-2xl overflow-hidden shadow-2xl flex flex-col md:flex-row shadow-[0_0_50px_rgba(105,218,255,0.15)] relative">
-            <button onclick="closeCalcModal()" class="absolute top-4 right-4 text-on-surface hover:text-error transition-colors z-10 w-8 h-8 flex items-center justify-center rounded-full bg-surface/50 backdrop-blur-sm">
+        <div
+            class="glass-card w-11/12 max-w-5xl rounded-2xl overflow-hidden shadow-2xl flex flex-col md:flex-row shadow-[0_0_50px_rgba(105,218,255,0.15)] relative">
+            <button onclick="closeCalcModal()"
+                class="absolute top-4 right-4 text-on-surface hover:text-error transition-colors z-10 w-8 h-8 flex items-center justify-center rounded-full bg-surface/50 backdrop-blur-sm">
                 <span class="material-symbols-outlined">close</span>
             </button>
-            
+
             <!-- Code Viewer -->
             <div class="flex-1 bg-[#1e1e1e] p-6 overflow-y-auto max-h-[70vh] md:max-h-[600px] border-r border-[#333]">
                 <div class="flex items-center gap-2 mb-4 text-[#a5abba] text-sm font-headline">
@@ -648,16 +677,17 @@
     <span class="text-[#c586c0]">return</span> <span class="text-[#b5cea8]">0</span>;
 }</code></pre>
             </div>
-            
+
             <!-- Terminal -->
-            <div class="flex-1 bg-[#0b0e14] p-6 max-h-[70vh] md:max-h-[600px] flex flex-col font-mono relative cursor-text" onclick="document.getElementById('termLineInput').focus()">
+            <div class="flex-1 bg-[#0b0e14] p-6 max-h-[70vh] md:max-h-[600px] flex flex-col font-mono relative cursor-text"
+                onclick="document.getElementById('termLineInput').focus()">
                 <div class="flex items-center gap-2 mb-4 text-outline text-sm">
                     <span class="w-3 h-3 rounded-full bg-error"></span>
                     <span class="w-3 h-3 rounded-full bg-[#fbbc05]"></span>
                     <span class="w-3 h-3 rounded-full bg-[#34a853]"></span>
                     <span class="ml-2 font-headline">bash — gcc calculator.c -o calc</span>
                 </div>
-                
+
                 <div id="terminalBody" class="flex-1 overflow-y-auto text-sm term-output"></div>
             </div>
         </div>
@@ -665,22 +695,30 @@
 
     <!-- Resume Modal -->
     <div id="resumeModal">
-        <div class="glass-card w-11/12 max-w-4xl max-h-[90vh] rounded-2xl overflow-hidden shadow-2xl flex flex-col shadow-[0_0_50px_rgba(105,218,255,0.15)] relative">
+        <div
+            class="glass-card w-11/12 max-w-4xl max-h-[90vh] rounded-2xl overflow-hidden shadow-2xl flex flex-col shadow-[0_0_50px_rgba(105,218,255,0.15)] relative">
             <!-- Header -->
-            <div class="p-6 md:p-10 border-b border-outline-variant/10 flex justify-between items-start bg-surface-container-low">
+            <div
+                class="p-6 md:p-10 border-b border-outline-variant/10 flex justify-between items-start bg-surface-container-low">
                 <div>
-                    <h1 class="text-3xl md:text-4xl font-headline font-bold text-on-surface mb-2">SATYAM <span class="primary-gradient-text">THAKUR</span></h1>
+                    <h1 class="text-3xl md:text-4xl font-headline font-bold text-on-surface mb-2">SATYAM <span
+                            class="primary-gradient-text">THAKUR</span></h1>
                     <div class="flex flex-wrap gap-4 text-sm text-on-surface-variant">
-                        <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">location_on</span> Faridabad, India</span>
-                        <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">mail</span> satyamkrthakur85@gmail.com</span>
-                        <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">terminal</span> B.Tech CSE (AIML)</span>
+                        <span class="flex items-center gap-1"><span
+                                class="material-symbols-outlined text-sm">location_on</span> Faridabad, India</span>
+                        <span class="flex items-center gap-1"><span
+                                class="material-symbols-outlined text-sm">mail</span> satyamkrthakur85@gmail.com</span>
+                        <span class="flex items-center gap-1"><span
+                                class="material-symbols-outlined text-sm">terminal</span> B.Tech CSE (AIML)</span>
                     </div>
                 </div>
                 <div class="flex gap-2">
-                    <button onclick="window.print()" class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-all">
+                    <button onclick="window.print()"
+                        class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-all">
                         <span class="material-symbols-outlined text-sm">download</span>
                     </button>
-                    <button onclick="closeResumeModal()" class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center hover:bg-error/20 hover:text-error transition-all">
+                    <button onclick="closeResumeModal()"
+                        class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center hover:bg-error/20 hover:text-error transition-all">
                         <span class="material-symbols-outlined text-sm">close</span>
                     </button>
                 </div>
@@ -690,19 +728,24 @@
             <div class="flex-1 overflow-y-auto p-6 md:p-10 space-y-10 bg-[#0b0e14]/50">
                 <!-- Objective -->
                 <section>
-                    <h2 class="resume-section-title"><span class="material-symbols-outlined text-base">target</span> Objective</h2>
+                    <h2 class="resume-section-title"><span class="material-symbols-outlined text-base">target</span>
+                        Objective</h2>
                     <p class="text-on-surface-variant leading-relaxed italic text-sm md:text-base">
-                        A motivated and hardworking B.Tech CSE (AIML) student currently in 2nd semester at Manav Rachna University. Passionate about programming, technology, and AI tools. Aiming to enhance skills through practical learning and contribute effectively to real-world projects.
+                        A motivated and hardworking B.Tech CSE (AIML) student currently in 2nd semester at Manav Rachna
+                        University. Passionate about programming, technology, and AI tools. Aiming to enhance skills
+                        through practical learning and contribute effectively to real-world projects.
                     </p>
                 </section>
 
                 <!-- Education -->
                 <section>
-                    <h2 class="resume-section-title"><span class="material-symbols-outlined text-base">school</span> Education</h2>
+                    <h2 class="resume-section-title"><span class="material-symbols-outlined text-base">school</span>
+                        Education</h2>
                     <div class="space-y-6">
                         <div class="resume-item">
                             <div class="flex justify-between items-baseline mb-1">
-                                <h3 class="font-bold text-on-surface">B.Tech – Computer Science Engineering (AI & ML)</h3>
+                                <h3 class="font-bold text-on-surface">B.Tech – Computer Science Engineering (AI & ML)
+                                </h3>
                                 <span class="text-xs font-bold text-primary">2025 – PRESENT</span>
                             </div>
                             <p class="text-sm text-primary-dim mb-2">Manav Rachna University</p>
@@ -723,10 +766,12 @@
 
                 <!-- Skills -->
                 <section>
-                    <h2 class="resume-section-title"><span class="material-symbols-outlined text-base">bolt</span> Technical Arsenal</h2>
+                    <h2 class="resume-section-title"><span class="material-symbols-outlined text-base">bolt</span>
+                        Technical Arsenal</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div>
-                            <h3 class="text-xs font-bold tracking-widest text-secondary mb-4 uppercase">Programming & Logic</h3>
+                            <h3 class="text-xs font-bold tracking-widest text-secondary mb-4 uppercase">Programming &
+                                Logic</h3>
                             <div class="flex flex-wrap gap-2">
                                 <span class="skill-tag">Python (Intermediate)</span>
                                 <span class="skill-tag">C Programming</span>
@@ -736,7 +781,8 @@
                             </div>
                         </div>
                         <div>
-                            <h3 class="text-xs font-bold tracking-widest text-tertiary mb-4 uppercase">AI & Modern Tools</h3>
+                            <h3 class="text-xs font-bold tracking-widest text-tertiary mb-4 uppercase">AI & Modern Tools
+                            </h3>
                             <div class="flex flex-wrap gap-2">
                                 <span class="skill-tag">Antigravity</span>
                                 <span class="skill-tag">Stitch</span>
@@ -750,10 +796,13 @@
 
                 <!-- Experience/Projects -->
                 <section>
-                    <h2 class="resume-section-title"><span class="material-symbols-outlined text-base">rocket_launch</span> AI Study Assistant</h2>
+                    <h2 class="resume-section-title"><span
+                            class="material-symbols-outlined text-base">rocket_launch</span> AI Study Assistant</h2>
                     <div class="bg-surface-container-highest/30 p-5 rounded-xl border border-outline-variant/10">
-                        <div class="resume-bullet">Used AI tools to generate high-quality notes, solve complex logical problems, and master core CS concepts.</div>
-                        <div class="resume-bullet">Significantly improved learning efficiency through strategic use of AI for assignment completion and concept visualization.</div>
+                        <div class="resume-bullet">Used AI tools to generate high-quality notes, solve complex logical
+                            problems, and master core CS concepts.</div>
+                        <div class="resume-bullet">Significantly improved learning efficiency through strategic use of
+                            AI for assignment completion and concept visualization.</div>
                     </div>
                 </section>
 
@@ -761,7 +810,8 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <!-- Strengths -->
                     <section>
-                        <h2 class="resume-section-title"><span class="material-symbols-outlined text-base">verified</span> Strengths</h2>
+                        <h2 class="resume-section-title"><span
+                                class="material-symbols-outlined text-base">verified</span> Strengths</h2>
                         <div class="space-y-2">
                             <div class="resume-bullet">Smart worker focused on both efficiency and quality.</div>
                             <div class="resume-bullet">Quick learner and adaptable to emerging technologies.</div>
@@ -771,10 +821,12 @@
 
                     <!-- Achievements -->
                     <section>
-                        <h2 class="resume-section-title"><span class="material-symbols-outlined text-base">emoji_events</span> Achievements</h2>
+                        <h2 class="resume-section-title"><span
+                                class="material-symbols-outlined text-base">emoji_events</span> Achievements</h2>
                         <div class="space-y-2">
                             <div class="resume-bullet">Mastered Python & C fundamentals within the first year.</div>
-                            <div class="resume-bullet">Completed multiple academic projects with practical code implementation.</div>
+                            <div class="resume-bullet">Completed multiple academic projects with practical code
+                                implementation.</div>
                             <div class="resume-bullet">Active explorer of AI tool applications in modern dev.</div>
                         </div>
                     </section>
@@ -782,11 +834,17 @@
 
                 <!-- Hobbies -->
                 <section class="pb-6">
-                    <h2 class="resume-section-title"><span class="material-symbols-outlined text-base">favorite</span> Hobbies & Interests</h2>
+                    <h2 class="resume-section-title"><span class="material-symbols-outlined text-base">favorite</span>
+                        Hobbies & Interests</h2>
                     <div class="flex flex-wrap gap-3">
-                        <span class="px-4 py-2 bg-surface-container-low rounded-lg text-sm text-on-surface-variant">Exploring AI Tools</span>
-                        <span class="px-4 py-2 bg-surface-container-low rounded-lg text-sm text-on-surface-variant">Coding Challenges</span>
-                        <span class="px-4 py-2 bg-surface-container-low rounded-lg text-sm text-on-surface-variant">Tech Content Consumption</span>
+                        <span
+                            class="px-4 py-2 bg-surface-container-low rounded-lg text-sm text-on-surface-variant">Exploring
+                            AI Tools</span>
+                        <span
+                            class="px-4 py-2 bg-surface-container-low rounded-lg text-sm text-on-surface-variant">Coding
+                            Challenges</span>
+                        <span class="px-4 py-2 bg-surface-container-low rounded-lg text-sm text-on-surface-variant">Tech
+                            Content Consumption</span>
                     </div>
                 </section>
             </div>
@@ -812,7 +870,7 @@
         function appendLine(text, isInput = false) {
             const div = document.createElement('div');
             div.textContent = text;
-            if(isInput) div.style.color = '#fff';
+            if (isInput) div.style.color = '#fff';
             termBody.appendChild(div);
             termBody.scrollTop = termBody.scrollHeight;
         }
@@ -825,7 +883,7 @@
             const input = document.getElementById('termLineInput');
             input.focus();
 
-            input.addEventListener('keydown', function(e) {
+            input.addEventListener('keydown', function (e) {
                 if (e.key === 'Enter') {
                     const val = this.value.trim();
                     const parent = this.parentElement;
@@ -865,23 +923,23 @@
                 if (parts.length >= 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
                     num1 = parseFloat(parts[0]);
                     num2 = parseFloat(parts[1]);
-                    
+
                     let res = 0;
                     let valid = true;
-                    switch(op) {
+                    switch (op) {
                         case '+': res = num1 + num2; break;
                         case '-': res = num1 - num2; break;
                         case '*': res = num1 * num2; break;
-                        case '/': 
-                            if(num2 !== 0) res = num1 / num2; 
+                        case '/':
+                            if (num2 !== 0) res = num1 / num2;
                             else { appendLine("Error! Division by zero is not allowed."); valid = false; }
                             break;
                     }
 
-                    if(valid) {
+                    if (valid) {
                         appendLine(`${num1.toFixed(2)} ${op} ${num2.toFixed(2)} = ${res.toFixed(2)}`);
                     }
-                    
+
                     appendLine("\n[Process completed. Press Enter to restart]");
                     calcState = 2;
                     createInput();
