@@ -30,7 +30,11 @@ const app = {
             this.state.books = [
                 { id: this.generateId(), title: "The Clean Coder", author: "Robert C. Martin", category: "Technology", borrowedBy: null, dueDate: null },
                 { id: this.generateId(), title: "JavaScript: The Good Parts", author: "Douglas Crockford", category: "Technology", borrowedBy: null, dueDate: null },
-                { id: this.generateId(), title: "A Brief History of Time", author: "Stephen Hawking", category: "Science", borrowedBy: null, dueDate: null }
+                { id: this.generateId(), title: "A Brief History of Time", author: "Stephen Hawking", category: "Science", borrowedBy: null, dueDate: null },
+                { id: this.generateId(), title: "The Pragmatic Programmer", author: "Andrew Hunt", category: "Technology", borrowedBy: null, dueDate: null },
+                { id: this.generateId(), title: "Sapiens", author: "Yuval Noah Harari", category: "History", borrowedBy: null, dueDate: null },
+                { id: this.generateId(), title: "Deep Work", author: "Cal Newport", category: "Non Fiction", borrowedBy: null, dueDate: null },
+                { id: this.generateId(), title: "The Hobbit", author: "J.R.R. Tolkien", category: "Fiction", borrowedBy: null, dueDate: null }
             ];
             this.saveBooks();
         }
