@@ -968,3 +968,67 @@ select option:checked {
         width: 100%;
     }
 }
+/* New GitHub & Info Section Styles */
+.btn-github {
+    background: #24292e !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.btn-github:hover {
+    background: #2f363d !important;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+.info-section {
+    margin-top: 80px;
+    padding: 60px 20px;
+    border-top: 1px solid var(--border-light);
+    text-align: center;
+}
+
+.info-card {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.github-link-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 1px solid var(--border-light);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.github-link-card:hover {
+    background: rgba(255, 255, 255, 0.07);
+    border-color: var(--primary);
+    transform: scale(1.02);
+}
+
+.github-icon-large {
+    width: 60px;
+    height: 60px;
+    fill: var(--primary);
+}
+
+.github-text {
+    text-align: left;
+}
+
+.github-text h4 {
+    margin-bottom: 5px;
+    color: var(--primary);
+}
+
+.github-text p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
